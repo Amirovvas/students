@@ -2,9 +2,10 @@
   "name": "students",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "dev": "node index.js"
+    "todo": "node todo/server.js",
+    "todo:client": "npm --prefix todo/client run dev",
+    "todo:build": "npm --prefix todo/client install && npm --prefix todo/client run build"
   },
   "keywords": [],
   "author": "",

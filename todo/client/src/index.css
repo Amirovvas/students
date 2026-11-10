@@ -1,0 +1,4 @@
+body { font-family: sans-serif; max-width: 400px; margin: 40px auto; }
+li { display: flex; gap: 8px; align-items: center; margin: 6px 0; }
+li span { flex: 1; }
+.done { text-decoration: line-through; color: gray; }
